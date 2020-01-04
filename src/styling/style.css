@@ -28,6 +28,12 @@ body {
     background-attachment: fixed;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 header {
     height: 135px;
     padding-top: 40px;
@@ -110,13 +116,14 @@ nav li {
     width: 80%;
     background-color: rgba(255, 255, 255, 0.2);
     margin: 0 auto;
+    margin-bottom: 50px;
     border: 1px solid;
     border-radius: 5px;
     box-shadow: 0px 0px 10px 5px rgba(181, 181, 181, 0.4);
 }
 
 #section-content {
-    width: 80%;
+    width: 90%;
     padding: 30px 0;
     margin: 0 auto;
     font-family: 'Quicksand', sans-serif;
@@ -131,4 +138,21 @@ nav li {
     font-size: 25px;
     margin-bottom: 10px;
     font-weight: 500;
+}
+
+#portfolio, #portfolio table {
+    width: 100%;
+}
+
+#portfolio td {
+    vertical-align: top;
+    padding: 10px 10px 20px 10px;
+}
+
+#portfolio col {
+    width: 20%;
+}
+
+#portfolio .project-title {
+    border-bottom: 1px solid;
 }

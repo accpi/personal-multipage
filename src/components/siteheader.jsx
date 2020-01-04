@@ -5,7 +5,7 @@ function Component(props) {
         <header>
             <div id='header-title'>
                 <h1>Nelson Kim</h1>
-                <h2>Software Developer // Cool Dude 😎</h2>
+                <h2>Software Developer // Cool Dude <span role="img" aria-label="cool">😎</span></h2>
             </div>
 
             <div id='header-contact-info'>
@@ -13,7 +13,7 @@ function Component(props) {
                 <div id='header-social-links'>
                     <ul>
                         <a href="mailto:nelson@starcatcafe.com" target="_blank" rel="noopener noreferrer">
-                            <img id="mailImage" src={require('../images/email.png')} alt="Email Picture" 
+                            <img id="mailImage" src={require('../images/email.png')} alt="Email" 
                                 style={{ width: '40px', height: '40px' }}
                             />
                         </a>
